@@ -25,6 +25,11 @@ const componentes = [
     href: "/components/tables",
     description: "Tables to show data.",
   },
+  {
+    title: "Charts",
+    href: "/components/charts",
+    description: "Beautiful extensible charts for your application.",
+  },
 ];
 
 export function MainNavBar() {

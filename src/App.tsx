@@ -5,6 +5,8 @@ import { ComponentsPage } from './pages/components/ComponentsPage'
 import ButtonsPage from './pages/ButtonsPage'
 import { CardsPage } from './pages/CardsPage'
 import TablesPage from './pages/TablesPage'
+import ChartsPage from './pages/ChartsPage'
+
 function App() {
   return (
     <BrowserRouter>
@@ -17,6 +19,7 @@ function App() {
             <Route path="buttons" element={<ButtonsPage />} />
             <Route path="cards" element={<CardsPage />} />
             <Route path="tables" element={<TablesPage />} />
+            <Route path="charts" element={<ChartsPage />} />
           </Route>
           <Route path="*" element={<div>Page not found</div>} />
         </Route>
