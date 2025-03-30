@@ -4,6 +4,7 @@ import { Home } from './pages/Home'
 import { ComponentsPage } from './pages/components/ComponentsPage'
 import ButtonsPage from './pages/ButtonsPage'
 import { CardsPage } from './pages/CardsPage'
+import TablesPage from './pages/TablesPage'
 function App() {
   return (
     <BrowserRouter>
@@ -15,7 +16,7 @@ function App() {
             {/* Aquí puedes añadir más rutas para cada componente específico */}
             <Route path="buttons" element={<ButtonsPage />} />
             <Route path="cards" element={<CardsPage />} />
-            <Route path="forms" element={<div>Página de Forms</div>} />
+            <Route path="tables" element={<TablesPage />} />
           </Route>
           <Route path="*" element={<div>Page not found</div>} />
         </Route>

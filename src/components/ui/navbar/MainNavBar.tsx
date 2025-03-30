@@ -21,9 +21,9 @@ const componentes = [
     description: "Components of cards to show information.",
   },
   {
-    title: "Forms",
-    href: "/components/forms",
-    description: "Form elements with validation.",
+    title: "Tables",
+    href: "/components/tables",
+    description: "Tables to show data.",
   },
 ];
 
